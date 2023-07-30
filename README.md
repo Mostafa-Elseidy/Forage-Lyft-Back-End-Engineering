@@ -1,6 +1,8 @@
 # Rental Fleet’s New Logistics System
 
 Building a component that is responsible for determining whether cars in Lyft’s new rental fleet should be serviced when they are returned.
+       
+![Design](https://github.com/Mostafa-Elseidy/Forage-Lyft-Back-End-Engineering/assets/67195496/5c746454-ded0-4f5b-a4a3-f6e1b1259dfd)
 
 ## Criteria for car servicing
 
