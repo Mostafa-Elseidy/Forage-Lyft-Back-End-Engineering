@@ -1,8 +1,15 @@
 # Rental Fleet’s New Logistics System
 
 Building a component that is responsible for determining whether cars in Lyft’s new rental fleet should be serviced when they are returned.
-       
-![Design](https://github.com/Mostafa-Elseidy/Forage-Lyft-Back-End-Engineering/assets/67195496/5c746454-ded0-4f5b-a4a3-f6e1b1259dfd)
+
+## Tasks
+
+1. Software Architecture
+2. Refactoring
+3. Unit Testing
+4. Add some new functionality to the system
+    - Upgrade Spindler batteries
+    - Add tire servicing
 
 ## Criteria for car servicing
 
@@ -28,3 +35,24 @@ There are five car models in Lyft’s fleet, each with a different engine-batter
 |Palindrome| Sternman | Spindler |
 |Rorschach| Willoughby | Nubbin |
 |Thovex| Capulet | Nubbin |
+
+-----
+
+## Draft a new architecture
+
+![Design](https://github.com/Mostafa-Elseidy/Forage-Lyft-Back-End-Engineering/assets/67195496/5c746454-ded0-4f5b-a4a3-f6e1b1259dfd)
+
+## Add Tire servicing
+
+| Part |Service criteria|
+|---|---|
+|Carrigan tires | one or more of the values in the tire wear array is greater than or equal to 0.9 |
+|Octoprime tires | the sum of all values in the tire wear array is greater than or equal to 3 |
+
+|Car| Tires|
+|---|---|
+|Calliope| Octoprime |
+|Glissade| Carrigan |
+|Palindrome| Octoprime |
+|Rorschach| Octoprime |
+|Thovex| Carrigan |

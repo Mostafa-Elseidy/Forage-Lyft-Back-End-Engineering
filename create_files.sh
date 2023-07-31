@@ -11,3 +11,6 @@ mkdir -p ./test/test_batteries && touch ./test/test_batteries/test_{spindler_bat
 mkdir -p ./test/test_engines && touch ./test/test_engines/test_{capulet_engine,sternman_engine,willoughby_engine}.py
 
 
+# add tires files
+mkdir -p ./tires && touch ./tires/{__init__,tire,carrigan_tire,octoprime_tire}.py
+mkdir -p ./test/test_tires && touch ./test/test_tires/test_{carrigan_tire,octoprime_tire}.py
